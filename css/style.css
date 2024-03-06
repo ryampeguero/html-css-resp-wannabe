@@ -139,3 +139,17 @@ img {
         display: flex;
     }
  }
+
+ @media screen and (max-width: 480px) {
+    .row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .why-us .col-right,
+    .steps .col,
+    .lessons .col  {
+        width: 100%;
+    }
+ }
