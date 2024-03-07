@@ -140,7 +140,7 @@ img {
     }
  }
 
-
+/* MOBILE 468px */
  @media screen and (max-width: 480px) {
     .row{
         display: flex;
@@ -155,12 +155,15 @@ img {
     }
  }
 
- @media screen and (min-width: 768px) {
+/* WIDTH BETWEEN 768px and 1160px */
+ @media screen and (min-width: 768px) and (max-width: 1160px) {
     .container {
-        width: 100%;
+        max-width: 768px;
+
     }
 
     .steps {
         display: flex;
     }
  }
+ 
