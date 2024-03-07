@@ -148,10 +148,21 @@ img {
         align-items: center;
     }
 
+    .why-us {
+        padding-top: 3rem;
+        background-color: black;
+        margin-bottom: 0;
+    }
+
+    .steps {
+        margin-bottom: 0;
+    }
+
     .why-us .col-right,
     .steps .col,
     .lessons .col  {
         width: 100%;
+        margin-bottom: 40px;
     }
  }
 
